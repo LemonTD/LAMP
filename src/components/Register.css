@@ -1,0 +1,138 @@
+input{ 
+    /* width: 480px; */
+    height: 72px;
+    /* left: 180px;
+    top: 396px;     */
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    margin-top: 24px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #2B1C1C;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+
+.fade-enter, .fade-leave-active {
+    opacity: 0
+}
+.input1{
+    /* width: 228px; */
+    height: 72px;
+    /* left: 180px;
+    top: 300px; */
+
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.input2{
+    /* width: 228px; */
+    height: 72px;
+    /* top: 300px; */
+
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* margin-left: -44px; */
+}
+#fil{
+    margin-top: 120px;
+}
+select{ 
+    /* width: 480px; */
+    height: 72px;
+    left: 180px;
+    top: 588px;
+    margin-top: 24px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(150, 12, 12, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+#wrapper{
+    border-radius: 6px;
+    /* width: 1920px; */
+    height: 1080px;
+    margin: 0px;
+    /* padding: 40px; */
+}
+#frame-col1{
+    background-color: white;
+    padding: 0 5%;
+}
+#frame-col2{
+    background-color: #FFF0CE;
+    padding: 0px;
+}
+h2{
+  color:#960c0c;
+  font-family: IBM Plex Sans;
+  font-style: regular;
+  font-size: 24px;
+}
+#sub{
+    background-color:red; 
+    color: white; 
+    border: 1px solid; width:100%;
+    /* width: 480px; */
+    height: 72px;
+    left: 180px;
+    top: 850px;
+    margin-top: 94px;
+}
+button{border-color:red; 
+    color: red;
+}
+a{
+    color: crimson;
+}
+img{
+    padding: 10% 5px;
+    /* margin-left: 75px;
+    left: 9.38%;
+    right: 75.8%;
+    top: 6.11%;
+    bottom: 89.44%; */
+  }
+#pat{
+    float: right;
+    margin-top: 30px;
+    margin-right: 150px;
+    width: 210px;
+    height: 60px;
+    left: 1530px;
+    top: 60px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #FF2E2E;
+}
+#pat:hover{
+    background-color: #FFFFFF;
+}
+#sem{
+    padding-top: 40px;
+    padding-left: 15px;
+}
