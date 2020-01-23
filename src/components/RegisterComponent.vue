@@ -2,21 +2,21 @@
     <div class="row" id="wrapper">        
       <div class="col-md-5" id="frame-col1">
         <div class="row">
-          <img src="./semicolon-logo.svg" class="col-md-8">
+          <img src="./semicolon-logo.svg" class="col-md-6">
         </div>
 
           <form id="fil">
             <div class="form-row">         
-              <div class="form-group col-md-6" style="padding-right:10px;">
+              <div class="form-group col-md-6" style="padding-right:12px;">
                 <!-- <label for="inputEmail4">Firstname</label> -->
                 <input type="text" class="form-control input1"  placeholder="First Name">
               </div>
-              <div class="form-group col-md-6" style="padding-left:10px;">
+              <div class="form-group col-md-6" style="padding-left:12px;">
                 <!-- <label for="inputEmail4">Lastname</label> -->
                 <input type="text" class="form-control input2" placeholder="Last Name">
               </div>        
             </div>
-            <div class="form-group" id="bigform">
+            <div class="form-group" id="bigform1">
                 <!-- <label for="inputEmail4">Email</border-color: red;label> -->
                 <input type="email" class="form-control" placeholder="Email Address">
             </div>

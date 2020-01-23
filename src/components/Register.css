@@ -7,7 +7,7 @@ input{
     border: 1px solid rgba(150, 12, 12, 0.5);
     box-sizing: border-box;
     margin-top: 24px;
-
+    
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
@@ -18,51 +18,109 @@ input{
     letter-spacing: 0.05em;
     color: #2B1C1C;
 }
+  
+input:focus {
+outline: 0;
+border-color: #FF2E2E;
+background-color: white;
+box-shadow: none;
+}
+
+input:focus::-webkit-input-placeholder {
+opacity: 10;
+text-overflow: ellipsis;
+transform-origin: left top;
+transform: translate(0, 1.025rem) scale(0.7);
+padding-top: 140px;
+color: #FF2E2E;
+white-space: nowrap;
+overflow: hidden;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+transition: all 0.2s;
+touch-action: manipulation;
+}
+
+::-webkit-input-placeholder {
+opacity: 1;
+transition: inherit;
+}
 
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s
 }
-
 .fade-enter, .fade-leave-active {
     opacity: 0
 }
 .input1{
-    /* width: 228px; */
     height: 72px;
-    /* left: 180px;
-    top: 300px; */
-
     background: #FFFFFF;
     border: 1px solid rgba(150, 12, 12, 0.5);
     box-sizing: border-box;
     border-radius: 6px;
+
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #2B1C1C;
 }
-.input2{
-    /* width: 228px; */
+.input2{    
     height: 72px;
-    /* top: 300px; */
 
     background: #FFFFFF;
     border: 1px solid rgba(150, 12, 12, 0.5);
     box-sizing: border-box;
     border-radius: 6px;
-    /* margin-left: -44px; */
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #2B1C1C;
 }
 #fil{
-    margin-top: 120px;
+    margin-top: 80px;
 }
-select{ 
-    /* width: 480px; */
+select{     
     height: 72px;
+    margin-top: 24px;
     left: 180px;
     top: 588px;
-    margin-top: 24px;
     
     background: #FFFFFF;
     border: 1px solid rgba(150, 12, 12, 0.5);
     box-sizing: border-box;
-    border-radius: 6px;
+    border-radius: 6px;   
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
 
+    /* color: #2B1C1C;  */
+    
+}
+select:focus{
+    outline: 0;
+    border-color: #FF2E2E;
+    background-color: white;
+    box-shadow: none;
 }
 #wrapper{
     border-radius: 6px;
@@ -79,21 +137,28 @@ select{
     background-color: #FFF0CE;
     padding: 0px;
 }
-h2{
-  color:#960c0c;
-  font-family: IBM Plex Sans;
-  font-style: regular;
-  font-size: 24px;
-}
+
 #sub{
     background-color:red; 
     color: white; 
-    border: 1px solid; width:100%;
+    border: 1px solid red; 
+    width:100%;
     /* width: 480px; */
     height: 72px;
     left: 180px;
     top: 850px;
     margin-top: 94px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
 button{border-color:red; 
     color: red;
@@ -102,21 +167,15 @@ a{
     color: crimson;
 }
 img{
-    padding: 10% 5px;
-    /* margin-left: 75px;
-    left: 9.38%;
-    right: 75.8%;
-    top: 6.11%;
-    bottom: 89.44%; */
+    padding: 10% 5px;   
   }
 #pat{
     float: right;
-    margin-top: 30px;
+    margin-top: 55px;
     margin-right: 150px;
-    width: 210px;
-    height: 60px;
-    left: 1530px;
-    top: 60px;
+    height: 55px;
+    /* left: 1530px;
+    top: 60px; */
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: 500;
@@ -132,7 +191,12 @@ img{
 #pat:hover{
     background-color: #FFFFFF;
 }
-#sem{
-    padding-top: 40px;
-    padding-left: 15px;
+
+#bigform{
+    padding-top: 12px;
+    margin: 0px;
+}
+#bigform1{
+    padding-top: 2px;
+    margin: 0px;
 }
