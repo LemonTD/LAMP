@@ -53,7 +53,7 @@ transition: inherit;
 .fade-enter, .fade-leave-active {
     opacity: 0
 }
-.input1{
+.register_input1{
     height: 72px;
     background: #FFFFFF;
     border: 1px solid rgba(150, 12, 12, 0.5);
@@ -72,7 +72,7 @@ transition: inherit;
 
     color: #2B1C1C;
 }
-.input2{    
+.register_input2{    
     height: 72px;
 
     background: #FFFFFF;
@@ -91,7 +91,7 @@ transition: inherit;
 
     color: #2B1C1C;
 }
-#fil{
+#register_fil{
     margin-top: 80px;
 }
 select{     
@@ -122,23 +122,23 @@ select:focus{
     background-color: white;
     box-shadow: none;
 }
-#wrapper{
+#register_wrapper{
     border-radius: 6px;
     /* width: 1920px; */
     height: 1080px;
     margin: 0px;
     /* padding: 40px; */
 }
-#frame-col1{
+#register_frame-col1{
     background-color: white;
     padding: 0 5%;
 }
-#frame-col2{
+#register_frame-col2{
     background-color: #FFF0CE;
     padding: 0px;
 }
 
-#sub{
+#register_submit{
     background-color:red; 
     color: white; 
     border: 1px solid red; 
@@ -169,7 +169,7 @@ a{
 img{
     padding: 10% 5px;   
   }
-#pat{
+#register_partner{
     float: right;
     margin-top: 55px;
     margin-right: 150px;
@@ -188,15 +188,15 @@ img{
     
     color: #FF2E2E;
 }
-#pat:hover{
+#register_partner:hover{
     background-color: #FFFFFF;
 }
 
-#bigform{
+#register_bigform{
     padding-top: 12px;
     margin: 0px;
 }
-#bigform1{
+#register_bigform1{
     padding-top: 2px;
     margin: 0px;
 }
