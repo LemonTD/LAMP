@@ -1,24 +1,4 @@
-# mevnexample
+Management Platform for semicolon africa.
 
-## Project setup
-```
-npm install
-```
+An interface for Semicolon learning and onboarding of natives and prospective applicants respectively.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-### move
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
