@@ -1,10 +1,12 @@
 // App.vue
 
 <template>  
-    
+<div id='app'>
+    <Laff />
     <transition name="fade">
       <router-view></router-view>
     </transition>
+</div>
 </template>
 
 <style src="./components/Register.css" scoped>  
@@ -12,7 +14,11 @@
 </style>
 
 <script>
-
-    export default{
+  import Laff from './Laff.vue'
+    export default {
+      name: 'app',
+      components: {
+        Laff
+      }
     }
 </script>

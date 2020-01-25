@@ -2,10 +2,10 @@
     <div class="row" id="register_wrapper">        
       <div class="col-md-5" id="register_frame-col1">
         <div class="row">
-          <img src="./semicolon-logo.svg" class="col-md-6">
+         <!-- <img src="./semicolon-logo.svg" class="col-md-6"> -->
         </div>
 
-          <form @submit.prevent="submitApplication" id="register_fil" method="POST">
+          <form @submit="submitApplication" id="register_fil" method="POST">
             <div class="form-row">         
               <div class="form-group col-md-6" style="padding-right:12px;">
                 <!-- <label for="inputEmail4">Firstname</label> -->
@@ -65,34 +65,44 @@
         </div>
       </div>
 </template>
-
 <script>
-import {mapActions} from 'vuex';
-import submitApplication from '../main'
-
-  export default {
-    name: 'Register',
-    data: function(){
-      return {
+import Vue from 'vue'
+import Vuex from 'vuex'
+import axios from 'axios'
+Vue.use(Vuex);
+Vue.use(axios)
+export default {
+    name: 'Laff',
+    mounted() {
+        console.log("mounted")
+    },
+    data() {
+        return {
+            
         first_name: '',
         last_name:  '',
         email: '',
         username: '',
         gender: ''
-      }
+        };
     },
-
-  
     methods: {
-      ...mapActions(
-        submitApplication
-      )
-    }
 
+            submitApplication: function(){
+    axios
+      .post('http://lamp-api.herokuapp.com/accounts/register', {
+        first_name: '' + this.first_name,
+        last_name: '' + this.last_name,
+        email: '' + this.email,
+        username: '' + this.username,
+        gender: '' + this.gender
+      }).then(function(res){console.log(res)}).catch(function(err){console.log(err.data)})
   }
+        }
+    }
 
 </script>
 
-<style src="./Register.css" scoped>
+<style src="./components/Register.css" scoped>
     
 </style>

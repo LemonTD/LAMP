@@ -93,6 +93,7 @@ transition: inherit;
 }
 #register_fil{
     margin-top: 80px;
+    width: 480px;
 }
 select{     
     height: 72px;
@@ -113,6 +114,7 @@ select{
     align-items: center;
     letter-spacing: 0.05em;
 
+
     /* color: #2B1C1C;  */
     
 }
@@ -121,6 +123,9 @@ select:focus{
     border-color: #FF2E2E;
     background-color: white;
     box-shadow: none;
+}
+option{
+    align-items: center;
 }
 #register_wrapper{
     border-radius: 6px;
@@ -131,7 +136,9 @@ select:focus{
 }
 #register_frame-col1{
     background-color: white;
+    /* margin-left: 5px; */
     padding: 0 5%;
+    
 }
 #register_frame-col2{
     background-color: #FFF0CE;
